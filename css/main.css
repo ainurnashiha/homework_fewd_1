@@ -1,0 +1,90 @@
+/*general styles */
+body{
+    margin: 0;
+    font-family: "times new roman";
+    background-color: grey
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.flex{
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+/* header */
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+.header h3{
+    text-decoration: none;
+    color:coral;
+}
+.header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+h4.container{
+    text-align: center;
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+    font-style: italic;
+    background-color: coral;
+}
+/* banner */
+.banner{
+    background-image: url("../imgs/discuss.jpg");
+    background-size: cover;
+    height: 400px;
+    padding:50px 0;
+}
+.banner .box_info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 37.5rem;
+    opacity: 85%; /*transparency effect on the box*/
+}
+
+.banner .box_info .content{
+    background-color: white;
+    width: 300px;
+    margin-right: 20px;
+    padding: 30px;
+}
+.banner .box_info .content h4{
+    background-color: rgb(218, 191, 195);
+}
+.banner .box_info .content p{
+    text-align: justify;
+}
+
+.banner .box_info .content .button a{
+    color: coral;
+    background-color: black;
+    width: 250px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.walk_through .item{
+    text-align: justify;
+    padding: 10px;
+    background-color: rgb(218, 191, 195);
+    margin: 20px 5px;
+}
+.walk_through .item button{
+    color: coral;
+    background-color: black;
+    width: 250px;
+    padding: 10px;
+    text-transform: uppercase;
+}
